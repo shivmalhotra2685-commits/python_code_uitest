@@ -1,0 +1,59 @@
+PS C:\Users\Aditya\Desktop\testing> git clone -b main https://github.com/browserstack/python-selenium-browserstack
+Cloning into 'python-selenium-browserstack'...
+remote: Enumerating objects: 278, done.
+remote: Counting objects: 100% (107/107), done.
+remote: Compressing objects: 100% (81/81), done.
+Rremote: Total 278 (delta 26), reused 63 (delta 21), pack-reused 171 (from 1) 
+Receiving objects: 100% (278/278), 54.97 KiB | 557.00 KiB/s, done.
+Resolving deltas: 100% (123/123), done.
+PS C:\Users\Aditya\Desktop\testing> cd python-selenium-browserstack
+PS C:\Users\Aditya\Desktop\testing\python-selenium-browserstack> browserstack-sdk python ./tests/test.py
+2025-09-20T06:48:26Z [browserstack_sdk.__init__][INFO] - SDK run started with id: ecc46e06-01dd-4e25-8c98-547277af3865
+2025-09-20T06:48:26Z [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-09-20T06:48:30Z [bstack_utils.bstack111ll1ll11_opy_][INFO] - Testhub started with id: ybvaxbv11jalstsfwparshsml8fattqo6ekhsrvj
+2025-09-20T06:48:30Z [bstack_utils.bstack111ll1ll11_opy_][ERROR] - accessibility Build creation failed
+2025-09-20T06:48:30Z [browserstack_sdk.__init__][INFO] - Starting Browserstack Local
+The process cannot access the file because it is being used by another process.
+2025-09-20T06:48:53Z [browserstack_sdk.__init__][INFO] - Browserstack Local is now running!
+2025-09-20T06:48:54Z [browserstack_sdk.__init__][INFO] - SDK run started with id: a2067740-4d88-4219-ab64-84b427680626
+2025-09-20T06:48:54Z [browserstack_sdk.__init__][INFO] - SDK run started with id: 604d7d08-ba95-4e58-a085-eea86d6e3f18
+2025-09-20T06:48:54Z [browserstack_sdk.__init__][INFO] - SDK run started with id: 344905b8-022f-47b5-af2f-b6e680bda5c2
+2025-09-20T06:48:57Z [bstack_utils.bstack111ll1ll11_opy_][INFO] - Testhub started with id: ea3ncushvooknqk37yxyeyqdgrsqtsupcu9vabne
+2025-09-20T06:48:57Z [bstack_utils.bstack111ll1ll11_opy_][INFO] - Testhub started with id: 65d2ch9kmr6wyifvuej0aiqyzb8ldayxg1plhgit
+2025-09-20T06:48:57Z [bstack_utils.bstack111ll1ll11_opy_][ERROR] - accessibility Build creation failed
+2025-09-20T06:48:57Z [bstack_utils.bstack111ll1ll11_opy_][ERROR] - accessibility Build creation failed
+2025-09-20T06:48:57Z [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: python
+2025-09-20T06:48:57Z [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: python
+2025-09-20T06:48:58Z [bstack_utils.bstack111ll1ll11_opy_][INFO] - Testhub started with id: hreofvxhxs28oknd23voq9272qbkuy29qdgf8yiw
+2025-09-20T06:48:58Z [bstack_utils.bstack111ll1ll11_opy_][ERROR] - accessibility Build creation failed
+2025-09-20T06:48:58Z [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: python
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!
+2025-09-20T06:49:30Z [browserstack_sdk.__init__][INFO] - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62945ef2025-09-20T06:48:58Z [bstack_utils.bstack111ll1ll11_opy_][ERROR] - accessibility Build creation failed
+2025-09-20T06:48:58Z [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: python
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:30Z [browserstack_sdk.__init__][INFO] - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62945efty Build creation failed
+2025-09-20T06:48:58Z [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: python
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:30Z [browserstack_sdk.__init__][INFO] - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62945ef2025-09-20T06:48:58Z [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: python
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:30Z [browserstack_sdk.__init__][INFO] - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62945efrstack, using framework: python
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:30Z [browserstack_sdk.__init__][INFO] - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62945ef2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:30Z [browserstack_sdk.__init__][INFO] - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62945ef2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:30Z [browserstack_sdk.__init__][INFO] - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62945ef2025-09-20T06:49:03Z [browserstack_sdk.__init__][INFO] - Completed setup!     
+2025-09-20T06:49:30Z [browserstack_sdk.__init__][INFO] - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62945efStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62945ef5e3f819feb99444509c6245da5e63006b
+2025-09-20T06:49:30Z [browserstack_sdk.__init__][INFO] - SDK run ended for id:ecc46e06-01dd-4e25-8c98-547277af3865, testhub id: null
+PS C:\Users\Aditya\Desktop\testing\python-selenium-browserstack>
